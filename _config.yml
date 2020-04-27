@@ -8,7 +8,8 @@ subtitle: 'THE GROWTH PATH OF DATA SCIENTISTS'
 description: 'You want something. Go get it！'
 keywords: imeixi, IMEIXI
 author: imeixi
-avatar: http://q9dw2lotu.bkt.clouddn.com/logo.png
+# avatar: http://q9dw2lotu.bkt.clouddn.com/logo.png
+avatar: /logo.png
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
