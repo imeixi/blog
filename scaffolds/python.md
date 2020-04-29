@@ -2,17 +2,15 @@
 title: {{ title }}
 date: {{ date }}
 author: imeixi
-img: 
-top: true
+img: /source/imgages/python.png
 cover: true
 coverImg: 
 password: 
 toc: false
 mathjax: false
 summary: 
-categories: Markdown
+categories: Python
 tags:
-  - Typora
-  - Markdown
+  - Python
+  - 数据分析
 ---
-
