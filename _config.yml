@@ -146,6 +146,6 @@ _config.yml 文件的其它修改建议:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 'git'
-  repo: https://github.com/imeixi/imeixi.github.io.git
+  type: git
+  repo: git@github.com:imeixi/imeixi.github.io.git
   branch: master
