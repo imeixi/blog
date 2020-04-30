@@ -1,7 +1,7 @@
 ---
-title: Python学习手册(二)
+title: Python学习手册(三)
 author: imeixi
-img: /images/python.jpg
+img: /images/python.png
 top: true
 cover: true
 toc: false
@@ -10,7 +10,7 @@ categories: Python
 tags:
   - Python
   - 数据分析
-date: 2020-04-30 03:05:56
+date: 2020-04-30 13:05:56
 coverImg:
 password:
 summary:

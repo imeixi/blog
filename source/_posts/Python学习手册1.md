@@ -1,7 +1,7 @@
 ---
 title: Python学习手册(一)
 author: imeixi
-img: /source/imgages/python.png
+img: /images/python.jpg
 top: true
 cover: true
 toc: false
