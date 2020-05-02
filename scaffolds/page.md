@@ -2,7 +2,6 @@
 title: {{ title }}
 date: {{ date }}
 author: imeixi
-img: 
 top: true
 cover: true
 coverImg: 

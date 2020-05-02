@@ -2,7 +2,7 @@
 title: {{ title }}
 date: {{ date }}
 author: imeixi
-img: /source/imgages/python.png
+img: /images/articles/python.png
 cover: true
 coverImg: 
 password: 

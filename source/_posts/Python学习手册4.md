@@ -1,7 +1,7 @@
 ---
 title: Python学习手册(四)
 author: imeixi
-img: /images/python.png
+img: /images/articles/python.png
 top: true
 cover: true
 toc: false
