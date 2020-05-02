@@ -103,13 +103,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 
-
-
-
 # 搜索
 search:
   path: search.xml
   field: post
+  format: html
+  limit: 10000
 
 # 中文链接转拼音
 permalink_pinyin:
