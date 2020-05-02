@@ -123,6 +123,18 @@ wordCount:
   min2read: true
   totalCount: true
 
+# 字数统计
+# https://github.com/theme-next/hexo-symbols-count-time
+# symbols_count_time:
+#   symbols: true
+#   time: true
+#   total_symbols: true
+#   total_time: true
+#   exclude_codeblock: false
+#   awl: 4
+#   wpm: 275
+#   suffix: "mins."
+
 # 添加 RSS 订阅支持（可选的）
 feed:
   type: atom
@@ -138,7 +150,8 @@ feed:
 
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: hexo-theme-matery
+# theme: hexo-theme-matery
+theme: next
 
 
 _config.yml 文件的其它修改建议:

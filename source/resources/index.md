@@ -1,20 +1,17 @@
 ---
-title: {{ title }}
-date: {{ date }}
+title: resources
 author: imeixi
-img: 
 top: true
 cover: true
-coverImg: 
-password: 
 toc: false
 mathjax: false
-summary: 
 categories: Markdown
 tags:
   - Typora
   - Markdown
-type: 
-comments: false
+date: 2020-05-02 17:21:18
+img:
+coverImg:
+password:
+summary:
 ---
-

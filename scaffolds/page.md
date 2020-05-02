@@ -14,4 +14,6 @@ categories: Markdown
 tags:
   - Typora
   - Markdown
+type: 
+comments: false
 ---
