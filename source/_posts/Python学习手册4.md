@@ -15,6 +15,8 @@ coverImg:
 password:
 summary:
 ---
+
+![python](/images/articles/python.png)
 百度: https://baidu.com
 this is the first python notebook.
 this is the first python notebook.
