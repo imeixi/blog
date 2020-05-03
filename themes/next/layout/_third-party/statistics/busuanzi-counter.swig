@@ -7,8 +7,8 @@
       <span class="post-meta-item-icon">
         <i class="{{ theme.busuanzi_count.total_visitors_icon }}"></i>
       </span>
-      <span class="site-uv" title="{{ __('footer.total_visitors') }}">
-        <span id="busuanzi_value_site_uv"></span>
+      <span class="site-uv">
+        {{ __('footer.total_visitors') }} <span id="busuanzi_value_site_uv"></span>
       </span>
     </span>
   {%- endif %}
@@ -22,8 +22,8 @@
       <span class="post-meta-item-icon">
         <i class="{{ theme.busuanzi_count.total_views_icon }}"></i>
       </span>
-      <span class="site-pv" title="{{ __('footer.total_views') }}">
-        <span id="busuanzi_value_site_pv"></span>
+      <span class="site-pv">
+        {{ __('footer.total_views') }} <span id="busuanzi_value_site_pv"></span>
       </span>
     </span>
   {%- endif %}

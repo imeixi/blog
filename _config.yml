@@ -116,24 +116,26 @@ permalink_pinyin:
   separator: '-' # default: '-'
 
 # 字数统计插件
-wordCount:
-  enable: true # 将这个值设置为 true 即可.
-  postWordCount: true
-  min2read: true
-  totalCount: true
+# wordCount:
+#   enable: true # 将这个值设置为 true 即可.
+#   postWordCount: true
+#   min2read: true
+#   totalCount: true
 
 # 字数统计
-# https://github.com/theme-next/hexo-symbols-count-time
-# symbols_count_time:
-#   symbols: true
-#   time: true
-#   total_symbols: true
-#   total_time: true
-#   exclude_codeblock: false
-#   awl: 4
-#   wpm: 275
-#   suffix: "mins."
-
+# npm install hexo-symbols-count-time
+# 设置博客单词统计
+symbols_count_time:
+  # 文章字数统计
+  symbols: true
+  # 文章阅读时间统计
+  time: true
+  # 站点总字数统计
+  total_symbols: false
+  # 站点总阅读时间统计
+  total_time: false
+  exclude_codeblock: false
+  
 # 添加 RSS 订阅支持（可选的）
 feed:
   type: atom
