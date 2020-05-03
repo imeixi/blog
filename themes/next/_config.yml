@@ -52,7 +52,7 @@ language_switcher: false
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  since: 2020-3-30
+  since: 2020
 
   # Icon between year and copyright info.
   icon:
@@ -221,7 +221,7 @@ toc:
 # A button to open designated chat widget in sidebar.
 # Firstly, you need enable the chat service you want to activate its sidebar button.
 chat:
-  enable: false
+  enable: true
   #service: chatra
   #service: tidio
   icon: fa fa-comment # Icon name in Font Awesome, set false to disable icon.
