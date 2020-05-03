@@ -123,8 +123,8 @@ menu:
   archives: /archives/ || fa fa-archive
   schedule: /schedule/ || fa fa-calendar
   resources: /resources/ || fa fa-download
-  sitemap: /sitemap.xml || fa fa-sitemap
-  commonweal: /404/ || fa fa-heartbeat
+  # sitemap: /sitemap.xml || fa fa-sitemap
+  # commonweal: /404/ || fa fa-heartbeat
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -612,13 +612,13 @@ changyan:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: false
-  appid: # Your leancloud application appid
-  appkey: # Your leancloud application appkey
+  enable: true
+  appid: qdlMDxXjwWQokuDDIELeMvLj-MdYXbMMI # Your leancloud application appid
+  appkey: 1MHvx96GgaQByoOUF5zBFXjD # Your leancloud application appkey
   notify: false # Mail notifier
   verify: false # Verification code
-  placeholder: Just go go # Comment box placeholder
-  avatar: mm # Gravatar style
+  placeholder: 有什么问题，欢迎留言指正与交流... # Comment box placeholder
+  avatar: robohash # Gravatar style
   guest_info: nick,mail,link # Custom comment header
   pageSize: 10 # Pagination size
   language: # Language, available values: en, zh-cn
@@ -635,7 +635,7 @@ livere_uid: # <your_uid>
 # Gitalk
 # For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
 gitalk:
-  enable: true
+  enable: false
   github_id: imeixi # GitHub repo owner
   repo: imeixi.github.io # Repository name to store issues
   client_id: 956d7b8f1125bd798a83 # GitHub Application Client ID
