@@ -5,6 +5,7 @@ import sys
 import poplib
 import smtplib
 import email.utils
+from email.message import Message
 from email.parser import Parser
 
 
@@ -81,6 +82,25 @@ class OperateEmail:
             # 关闭连接:
             server.quit()
 
+    def send_mail_by_message(self):
+        m = Message()
+        m['from'] = self.email
+        m['to'] = self.email
+        m['subject'] = 'form email.message import Message'
+        m.set_payload('This email is send by python script with email.message Message')
+
+        s = str(m)
+        print(s)
+        print('\n' + '-' * 80)
+
+        x = Parser().parsestr(s)
+        print(x)
+        print('\n' + '-' * 80)
+
+        print(x['From'])
+        print(x.get_payload())
+        print(x.items())
+
 
 if __name__ == '__main__':
     # 命令行输入三个参数，第1个参数 sys.argv[0] 是脚本名称，第2个是邮箱用户名，第3个是邮箱密码
@@ -90,5 +110,6 @@ if __name__ == '__main__':
     user = sys.argv[1]
     pw = sys.argv[2]
     operate_email = OperateEmail(user, pw)
-    operate_email.send_mail_by_smtp()
+    # operate_email.send_mail_by_smtp()
     operate_email.rec_email_by_pop3()
+    # operate_email.send_mail_by_message()
