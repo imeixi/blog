@@ -197,16 +197,22 @@ class OperateEmail:
                 # 但是这个Message对象本身可能是一个MIMEMultipart对象，即包含嵌套的其他MIMEBase对象，
                 # 嵌套可能还不止一层。所以我们要递归地打印出Message对象的层次结构：
                 print('---------- 解析之后 ----------')
-                base_save_path = './email_attachments/'
                 msg_headers = OperateEmail.get_email_headers(msg)
-                content, attachment_files = OperateEmail.get_email_content(msg, base_save_path)
+                if msg_headers['subject'].__contains__('日记'):
+                    base_save_path = './time_diary/'
+                    content, attachment_files = OperateEmail.get_email_content(msg, base_save_path)
+                elif msg_headers['subject'].__contains__('imeixi'):
+                    base_save_path = './imeixi/'
+                    content, attachment_files = OperateEmail.get_email_content(msg, base_save_path)
+                else:
+                    pass
 
                 print('subject:', msg_headers['subject'])
                 print('from_address:', msg_headers['from'])
                 print('to_address:', msg_headers['to'])
                 print('date:', msg_headers['date'])
-                print('content:', content)
-                # print('attachment_files: ', attachment_files)
+                # print('content:', content)
+                print('attachment_files: ', attachment_files)
 
             # 可以根据邮件索引号直接从服务器删除邮件:
             # server.dele(msg_count)
