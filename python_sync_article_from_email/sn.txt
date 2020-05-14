@@ -1,7 +1,0 @@
-OPONDKTPFCMEGMAZ
-
-BKAMNPBCOVCPRWQP
-
-https://docs.python.org/zh-cn/3.9/library/email.examples.html
-
-https://blog.csdn.net/freesigefei/article/details/51313155
