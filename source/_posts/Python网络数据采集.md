@@ -42,3 +42,25 @@ html = urlopen("http://pythonscraping.com/pages/page1.html")
 print(html.read())
 ```
 
+#### 第2章 复杂的HTML
+
+BeautifulSoup库：https://beautifulsoup.readthedocs.io/zh_CN/latest/
+
+​								https://www.crummy.com/software/BeautifulSoup/bs4/doc.zh/
+
+findAll(tag, attributes, recursive, text, limit, keywords)
+
+find(tag, attributes, recursive, text, keywords)
+
+
+
+正则表达式：在线测试网站  http://regexpal.com
+
+
+
+
+
+
+
+
+
